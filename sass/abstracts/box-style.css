@@ -1,0 +1,44 @@
+.box-rate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #f7f2f7;
+  margin: 1em auto;
+  padding: .8em;
+}
+
+@media screen and (min-width: 600px) {
+  .box-rate {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 30em;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+.box-testimony {
+  padding: 2em;
+  max-width: 30em;
+  border-radius: 10px;
+  background-color: #502050;
+  margin: 1em auto;
+}
+/*# sourceMappingURL=box-style.css.map */

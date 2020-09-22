@@ -3,16 +3,39 @@
 
 //abstracts
 @import abstracts/color
-@import abstracts/text    
+@import abstracts/text 
+@import abstracts/box-style   
 //layout
 @import layout/layout
 
 body 
     background-color: $White
     font-family: $font-stack
-    text-align: center
-.col 
-    display: 
+
 h1 
     color: $Very-Dark-Magenta
     font-size: $font-bold
+.col-1 p
+    color: $Very-Dark-Magenta
+    font-weight: $font-normal
+    opacity: 0.6
+.box-rate p
+    color: $Very-Dark-Magenta
+    font-weight: $font-bold
+.box-testimony
+    color: $White
+.name-testimony h3 span
+    color: $Dark-Grayish-Magenta
+    display: block
+    font-weight: $font-normal
+
+
+.container-img
+    width: 3.5em
+.name-testimony
+    display: flex
+    align-items: center
+    gap: 1em
+.circle-avatar 
+    border-radius: 50%
+    width: 100%
